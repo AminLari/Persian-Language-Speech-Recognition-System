@@ -58,6 +58,6 @@ To run this project, you'll need Python and several libraries. Follow these step
 ## Results
 The model is trained to classify Persian speech commands and can be evaluated using the provided sample audio file (roshan.wav).
 
-Sample Input: roshan.wav
-Predicted Output: The model predicts the class label for the input audio file.
+- Sample Input: roshan.wav
+- Predicted Output: The model predicts the class label for the input audio file.
 
