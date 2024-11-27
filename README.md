@@ -34,4 +34,4 @@ To run this project, you'll need Python and several libraries. Follow these step
 
 2. **Install the dependencies:**
    ```bash
-   pip install tensorflow keras numpy
+   pip install tensorflow librosa keras numpy
