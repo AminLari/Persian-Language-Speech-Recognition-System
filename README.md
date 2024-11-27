@@ -40,3 +40,9 @@ To run this project, you'll need Python and several libraries. Follow these step
 After downloading the repository, you need to extract the voice command dataset.
 ```bash
 unzip Voices-wav.zip
+
+### Step 2: Run the training and evaluation script
+To train the CNN model on the dataset, run the following Python script:
+
+```bash
+python CI_Lab_Project.py
