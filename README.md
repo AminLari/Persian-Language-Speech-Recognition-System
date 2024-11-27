@@ -31,3 +31,7 @@ To run this project, you'll need Python and several libraries. Follow these step
    ```bash
    git clone https://github.com/AminLari/Persian-Language-Speech-Recognition-System.git
    cd Persian-Language-Speech-Recognition-System
+
+2. **Install the dependencies:**
+   ```bash
+   pip install tensorflow keras numpy
