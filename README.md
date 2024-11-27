@@ -27,16 +27,16 @@ To run this project, you'll need Python and several libraries. Follow these step
 - LibROSA
 
 ### Steps
-1. **Clone the repository:**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/AminLari/Persian-Language-Speech-Recognition-System.git
    cd Persian-Language-Speech-Recognition-System
 
-2. **Install the dependencies:**
+2. **Install the dependencies**
    ```bash
    pip install tensorflow librosa keras numpy
 
-3. **Extract the dataset:**
+3. **Extract the dataset**
    After downloading the repository, you need to extract the voice command dataset.
    ```bash
    unzip Voices-wav.zip
@@ -47,3 +47,18 @@ To run this project, you'll need Python and several libraries. Follow these step
    python CI_Lab_Project.py
 
 The script will load the dataset, preprocess the audio data, and train the model.
+
+5. **Test the model with a sample audio**
+   After training the model, you can test it with a sample audio file. The provided sample file is roshan.wav. Modify the script to classify your own audio files if needed.
+   ```bash
+   # Modify script to test a different file
+   test_audio = 'path/to/your/audio.wav'
+   prediction = model.predict(test_audio)
+   print(f'Predicted Class: {prediction}')
+
+## Results
+The model is trained to classify Persian speech commands and can be evaluated using the provided sample audio file (roshan.wav).
+
+Sample Input: roshan.wav
+Predicted Output: The model predicts the class label for the input audio file.
+
