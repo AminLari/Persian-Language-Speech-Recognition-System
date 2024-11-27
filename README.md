@@ -37,7 +37,7 @@ To run this project, you'll need Python and several libraries. Follow these step
    pip install tensorflow librosa keras numpy
 
 ## Usage
-1. **Extract the dataset**
+1. **Extract the dataset:**
    After downloading the repository, you need to extract the voice command dataset.
    ```bash
    unzip Voices-wav.zip
@@ -47,7 +47,7 @@ To run this project, you'll need Python and several libraries. Follow these step
    ```bash
    python CI_Lab_Project.py
 
-4. **Test the model with a sample audio**
+4. **Test the model with a sample audio:**
    After training the model, you can test it with a sample audio file. The provided sample file is roshan.wav. Modify the script to classify your own audio files if needed.
    ```bash
    # Modify script to test a different file
