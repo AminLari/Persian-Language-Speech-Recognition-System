@@ -61,3 +61,5 @@ The model is trained to classify Persian speech commands and can be evaluated us
 - Sample Input: roshan.wav
 - Predicted Output: The model predicts the class label for the input audio file.
 
+## Contact
+For questions or suggestions, please contact Amin Lari.
