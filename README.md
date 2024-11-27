@@ -36,19 +36,20 @@ To run this project, you'll need Python and several libraries. Follow these step
    ```bash
    pip install tensorflow librosa keras numpy
 
-3. **Extract the dataset**
+## Usage
+1. **Extract the dataset**
    After downloading the repository, you need to extract the voice command dataset.
    ```bash
    unzip Voices-wav.zip
 
-4. **Run the training and evaluation script:**
+2. **Run the training and evaluation script:**
    To train the CNN model on the dataset, run the following Python script:
    ```bash
    python CI_Lab_Project.py
 
 The script will load the dataset, preprocess the audio data, and train the model.
 
-5. **Test the model with a sample audio**
+3. **Test the model with a sample audio**
    After training the model, you can test it with a sample audio file. The provided sample file is roshan.wav. Modify the script to classify your own audio files if needed.
    ```bash
    # Modify script to test a different file
