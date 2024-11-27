@@ -43,13 +43,11 @@ To run this project, you'll need Python and several libraries. Follow these step
    unzip Voices-wav.zip
 
 2. **Run the training and evaluation script:**
-   To train the CNN model on the dataset, run the following Python script:
+   To train the CNN model on the dataset, run the following Python script. The script will load the dataset, preprocess the audio data, and train the model.
    ```bash
    python CI_Lab_Project.py
 
-The script will load the dataset, preprocess the audio data, and train the model.
-
-3. **Test the model with a sample audio**
+4. **Test the model with a sample audio**
    After training the model, you can test it with a sample audio file. The provided sample file is roshan.wav. Modify the script to classify your own audio files if needed.
    ```bash
    # Modify script to test a different file
