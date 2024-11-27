@@ -35,3 +35,8 @@ To run this project, you'll need Python and several libraries. Follow these step
 2. **Install the dependencies:**
    ```bash
    pip install tensorflow librosa keras numpy
+## Usage:
+### Step 1: Extract the dataset:
+After downloading the repository, you need to extract the voice command dataset.
+```bash
+unzip Voices-wav.zip
