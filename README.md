@@ -64,7 +64,7 @@ The developed framework extracts time-frequency domain features from audio signa
 The model can be evaluated using the provided sample audio file (roshan.wav).
 - Sample Input: roshan.wav
 - Predicted Output: The model predicts the class label for the input audio file.
-<p> <img src="https://github.com/user-attachments/assets/64fb83b7-e784-4258-80d0-9ee6547e4693" width="1000"> </p> 
+<p> <img src="https://github.com/user-attachments/assets/64fb83b7-e784-4258-80d0-9ee6547e4693" width="500"> </p> 
 
 ## Contact
 For questions or suggestions, please contact Amin Lari.
