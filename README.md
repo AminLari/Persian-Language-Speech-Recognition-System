@@ -2,7 +2,7 @@
 
 ## Overview
 This project implements a speech recognition system for Persian language commands using a Convolutional Neural Network (CNN). The system is developed in Python, leveraging TensorFlow and Keras, and it classifies spoken commands based on an audio dataset.
-<p> <img src="https://github.com/user-attachments/assets/4b2d8a18-cafd-42b1-9e3a-3f916fea5dee" width="1000"> </p> 
+<p> <img src="https://github.com/user-attachments/assets/a730d6b3-fe14-4416-a55e-bf447e39a17c" width="1000"> </p> 
 
 ## Features
 - **CNN Model:** Trained using a dataset of Persian commands.
